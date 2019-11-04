@@ -3,4 +3,4 @@ version: 0.2
 phases:
   build:
     commands:
-      - aws s3 sync ./ s3://totalrandom
+      - aws s3 cp ./index.html s3://totalrandom
